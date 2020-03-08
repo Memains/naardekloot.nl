@@ -8428,8 +8428,8 @@ h1, h2, h3, h4, h5,
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             right: 0;
-            max-width: 40%;
-            padding-left: 45px;
+            max-width: 50%;
+            padding-left: 35px;
             padding-right: 3em; } }
     .hero-wrap .slider-text .subheading {
       color: #000;
