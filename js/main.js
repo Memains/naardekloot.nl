@@ -270,9 +270,11 @@ AOS.init({
 	});
 
 	var audio = new Audio('audio/commercial.mp3');
-	$("a[href*=#]").on('click', function (event) {
-		event.preventDefault();
+	$("a[href*=#]").on('click', function (e) {
+		e.preventDefault();
 		audio.play();
 	});
-
+	$("form").submit(function(e){
+		return false;
+	});
 })(jQuery);
